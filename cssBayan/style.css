@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: blanchedalmond;
+}
+
+/* mem1 */
+
+.accordion {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+
+
+.mem-title {
+    display: block;
+    color: black;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: background .2s ease-out;
+}
+
+.mem-title:hover {
+    background-color: #ff8a00;
+}
+
+.mem-input {
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+
+.mem-input:checked + .mem-image {
+    display: block;
+}
+
+.mem-image {
+    display: none;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
