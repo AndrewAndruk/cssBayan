@@ -27,7 +27,10 @@ body {
     -webkit-appearance: none;
     appearance: none;
     position: absolute;
+
 }
+
+
 
 .mem-input:checked + .mem-image {
     display: block;
