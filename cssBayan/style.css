@@ -1,18 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Gilroy";
     font-size: 16px;
     line-height: 1.5;
     background-color: blanchedalmond;
 }
 
-/* mem1 */
-
 .accordion {
     max-width: 500px;
     margin: 20px auto;
 }
-
-
 
 .mem-title {
     display: block;
@@ -20,6 +16,7 @@ body {
     cursor: pointer;
     padding: 10px 15px;
     transition: background .2s ease-out;
+    font-weight: bold;
 }
 
 .mem-title:hover {
@@ -38,7 +35,6 @@ body {
 
 .mem-image {
     display: none;
-    font-size: 14px;
     padding: 10px 15px;
     cursor: pointer;
 }
@@ -46,5 +42,5 @@ body {
 .main-title {
     text-align: center;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: bolder;
 }
