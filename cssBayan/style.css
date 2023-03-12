@@ -1,0 +1,46 @@
+body {
+    font-family: "Gilroy";
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: blanchedalmond;
+}
+
+.accordion {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.mem-title {
+    display: block;
+    color: black;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: background .2s ease-out;
+    font-weight: bold;
+}
+
+.mem-title:hover {
+    background-color: #ff8a00;
+}
+
+.mem-input {
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+
+.mem-input:checked + .mem-image {
+    display: block;
+}
+
+.mem-image {
+    display: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
